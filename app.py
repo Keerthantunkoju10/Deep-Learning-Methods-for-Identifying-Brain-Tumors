@@ -99,6 +99,7 @@ def get_samples():
     return jsonify(samples)
 
 @app.route('/api/sample/<filename>', methods=['GET'])
+@app.route('/testImages/<filename>', methods=['GET'])
 def serve_sample(filename):
     return send_from_directory(TEST_IMAGES_DIR, filename)
 
