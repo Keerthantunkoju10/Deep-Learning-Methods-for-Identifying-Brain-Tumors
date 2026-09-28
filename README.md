@@ -28,7 +28,7 @@ An advanced Deep Learning medical diagnostic platform and live interactive web a
 ├── BrainTumor.py              # Native desktop Tkinter GUI application
 ├── run_web.bat                # One-click web application launcher
 ├── run.bat                    # One-click desktop GUI launcher
-├── requirements.txt           # Python dependencies
+├── requirements-server.txt    # Python dependencies (for Flask server & training)
 ├── templates/
 │   └── index.html             # Web application user interface
 ├── static/
@@ -68,7 +68,7 @@ python -m venv venv
 
 ### 3. Install Requirements
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-server.txt
 ```
 
 ### 4. Launch the Web Application & Live Demo

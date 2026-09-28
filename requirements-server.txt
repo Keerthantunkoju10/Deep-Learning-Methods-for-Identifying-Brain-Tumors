@@ -1,0 +1,9 @@
+tensorflow>=2.16.0
+tf-keras>=2.16.0
+opencv-python>=4.8.0
+matplotlib>=3.8.0
+scikit-learn>=1.4.0
+imutils>=0.5.4
+numpy>=1.26.0
+flask>=3.0.0
+flask-cors>=4.0.0
